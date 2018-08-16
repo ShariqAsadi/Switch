@@ -1,1 +1,1 @@
-#Switch Component
+## Switch Component
