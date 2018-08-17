@@ -4,7 +4,11 @@ import './Switch.css';
 const Switch = props => {
   window.onload = function() {
     document.querySelector('#switcher').focus();
+    document.addEventListener('click', function() {
+      document.querySelector('#switcher').focus();
+    });
   };
+
   return (
     <div>
       <input
