@@ -2,6 +2,9 @@ import React from 'react';
 import './Switch.css';
 
 const Switch = props => {
+  window.onload = function() {
+    document.querySelector('#switcher').focus();
+  };
   return (
     <div>
       <input

@@ -46,5 +46,6 @@
 }
 
 .hidden {
-  display: none;
+  width: 0;
+  overflow: hidden;
 }
